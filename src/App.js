@@ -15,6 +15,7 @@ function App() {
     }, [tg]);
 
     const onClicker = () => {
+        console.log(tg.initDataUnsafe?.user?.username);
         const newNumber = number + 1;
         setNumber(newNumber); 
         localStorage.setItem('clickCount', newNumber); 
