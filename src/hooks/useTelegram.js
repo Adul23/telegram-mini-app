@@ -12,13 +12,11 @@ export function useTelegram(){
             tg.MainButton.show();
         }
     }
-    const onClicker = (number) => {
-        prevNumber => prevNumber + 1;
-    }
+    
     return {
         onClose,
         tg,
-        onClicker,
+        
         user: tg.initDataUnsafe?.user,
     }
 }
