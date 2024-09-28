@@ -1,26 +1,22 @@
-import React, {useEffect} from 'react'; 
+import React, { useEffect } from 'react';
 import './App.css';
-// import { useTelegram } from 'src/hooks/components/useTelegram.js';
+import { useTelegram } from './hooks/useTelegram'; // Ensure the path is correct
 
 function App() {
-  // const {onToggleButton, tg} = useTelegram();
-  useEffect(() => {
-    tg.ready();
-    
-  }, [])
-  const onToggleButton = () => {
-    if(tg.MainButton.isVisible) {
-        tg.MainButton.hide();
-    } else{
-        tg.MainButton.show();
-    }
-}
-  return (
-    <div className="App">
-      <button onClick={onToggleButton}>toggle</button>
+    const { onClose, onToggleButton, tg } = useTelegram();
 
-    </div>
-  );
+    useEffect(() => {
+        tg.ready();
+    }, [tg]);
+
+    return (
+        <div className="App">
+            <h1>Welcome to Telegram Web App</h1>
+            <button onClick={onToggleButton}>Toggle Main Button</button>
+            <button onClick={onClose}>Close</button>
+            {tg.user && <p>Hello, {tg.user.first_name}!</p>}
+        </div>
+    );
 }
 
 export default App;
