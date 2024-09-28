@@ -2,7 +2,6 @@ const tg = window.Telegram.WebApp;
 
 export function useTelegram(){
     const onClose = () => {
-        
         tg.close()
     }
     const onToggleButton = () => {
@@ -13,10 +12,13 @@ export function useTelegram(){
             tg.MainButton.show();
         }
     }
-    
+    const onClicker = (number, setNumber) => {
+        setNumber(prevNumber => prevNumber + 1);
+    }
     return {
         onClose,
         tg,
+        onClicker,
         user: tg.initDataUnsafe?.user,
     }
 }
