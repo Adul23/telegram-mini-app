@@ -14,7 +14,7 @@ function App() {
         <div className="App">
             <h1>Welcome to Telegram Web App</h1>
             <button onClick={onToggleButton}>Toggle Main Button</button>
-            <button onClick={onClicker}>Clicker number: {number}</button>
+            <button onClick={onClicker(number)}>Clicker number: {number}</button>
             <button onClick={onClose}>Close</button>
             {tg.user && <p>Hello, {tg.initDataUnsafe?.user?.username}!</p>}
         </div>

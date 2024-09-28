@@ -12,8 +12,8 @@ export function useTelegram(){
             tg.MainButton.show();
         }
     }
-    const onClicker = (number, setNumber) => {
-        setNumber(prevNumber => prevNumber + 1);
+    const onClicker = (number) => {
+        prevNumber => prevNumber + 1;
     }
     return {
         onClose,
