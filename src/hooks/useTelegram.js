@@ -5,7 +5,7 @@ export function useTelegram(){
         tg.close()
     }
     const onToggleButton = () => {
-        tg.enableClosingConfirmation();
+        console.log(tg.initDataUnsafe?.user?.username);
         if(tg.MainButton.isVisible) {
             tg.MainButton.hide();
         } else{
