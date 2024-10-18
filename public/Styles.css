@@ -64,10 +64,34 @@
 
     .nameTeam {
         font-size: 16px; /* Adjust font size for smaller screens */
-        right: 10px; /* Keep it in the right corner */
+        left: 10px; 
+
     }
 
     .catalog {
         margin-left: 10px; /* Center it on smaller screens */
+    }
+    .back23 {
+        background-image: url('back'); 
+        background-size: cover; 
+        background-position: center; 
+        position: absolute; 
+        width: 100%; 
+        height: auto; 
+        aspect-ratio: 400 / 860; 
+        top: 23px;
+        left: 0;
+    }
+    
+    .back233 {
+        background-image: url('back1'); 
+        background-size: cover; 
+        background-position: center; 
+        position: absolute; 
+        width: 100%; /* Full width for mobile */
+        height: auto; /* Adjust height to maintain aspect ratio */
+        aspect-ratio: 400 / 860; /* Maintain aspect ratio */
+        top: 45px;
+        left: 0; /* Aligns with the left edge */
     }
 }
