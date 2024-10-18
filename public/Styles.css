@@ -1,0 +1,26 @@
+.main-logo {
+    width: 100px; /* Remove the comma here */
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 0px;
+}
+.container {
+    margin: 33px 34px;
+}
+
+.somebackground{
+    background-image:url("/src/components/photos/backgroundimg.png");
+    height: 100px;
+}
+.nameTeam{
+    margin-top: 0px;
+    margin-left: 128px;
+    position:absolute;
+    text-align: center;
+}
+.catalog{
+    margin-top: 0px;
+    margin-left: 17.38px;
+    position:absolute;
+}
