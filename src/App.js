@@ -14,15 +14,14 @@ function App() {
             <div class='header'>
                 <div class='catalog'>
                     <img src={finder} alt ="Finder"/>
-                
+                </div>
                 <div class = 'nameTeam'>
                     <h12>Reactive JStars</h12>
                     <div class = 'back-23'>
                     <a href="#"> 
                         <img src={back} alt=""/>
                     </a>
-                </div>
-                </div>
+                    </div>
                 </div>
                 
 
