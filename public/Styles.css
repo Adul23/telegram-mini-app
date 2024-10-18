@@ -5,15 +5,11 @@
 .nameTeam {
     position: absolute;
     top: 5px; /* Aligns at the top */
-    margin-right: 5px;
+    right: 5px;
     font-size: 18px; 
 }
 
-.catalog {
-    position: absolute;
-    margin-top: 0;
-    left: 10px; /* Adjust to your preference */
-}
+
 
 .back23 {
     background-image: url('back'); 
@@ -44,12 +40,10 @@
 
     .nameTeam {
         font-size: 16px;
-        margin-right:10px;
+        right:10px;
     }
 
-    .catalog {
-        margin-left: 10px; /* Center it on smaller screens */
-    }
+    
     .back23 {
         background-image: url('back'); 
         background-size: cover; 
