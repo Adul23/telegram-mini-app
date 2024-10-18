@@ -1,8 +1,5 @@
 import React from 'react';
 import './App.css';
-import finder from './components/photos/Layer 6.png';
-import back from './components/photos/Rectangle 7.png';
-import back1 from './components/photos/Chevron_Left_MD.png';
 
 const RegistrationForm = () => {
     const [name, setName] = useState('');

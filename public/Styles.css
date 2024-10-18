@@ -17,7 +17,7 @@
 .nameTeam {
     position: relative;
     top: 0px; /* Aligns at the top */
-    left: 113px;
+    left: 550px;
     font-size: 14px; 
     align-items: center;
 }
@@ -27,17 +27,17 @@
     width: 32px; 
     height: 32px;
     background-color: #ffffff;
-    left: 30px; /* Align with .back23 */
-    top: 79px; /* Start from the top of .back23 */
+    left: 250px; /* Align with .back23 */
+    top: 50px; /* Start from the top of .back23 */
     z-index: 2; /* Ensure it appears above .back23 */
     border-radius: 100%; /* Keep this if desired */
 }
 
 .back23 {
     position: relative; /* Keep it relative for positioning context */
-    width: 200px; 
+    width: 700px; 
     height: 400px;
-    left: 20px;
+    left: 0px;
     background-color: #2F424A;
     z-index: 1; /* Ensure it's behind .back233 */
 }
@@ -47,9 +47,9 @@
     width: 180px; 
     height: 200px;
     background-color: #ffffff;
-    left: 30px; /* Align with .back23 */
-    top: 120px; /* Start from the top of .back23 */
+    left: 250px; /* Align with .back23 */
+    top: 100px; /* Start from the top of .back23 */
     z-index: 2; /* Ensure it appears above .back23 */
     border-radius: 3%; /* Keep this if desired */
-    align-items: center;
+    
 }
