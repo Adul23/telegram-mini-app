@@ -15,7 +15,7 @@ function App() {
                     <img src={finder} alt="Finder Icon" />
                 </div>
                 <div className="nameTeam">
-                    <h2>Reactive JStars</h2>
+                    <h12>Reactive JStars</h12>
                 </div>
             </div>
             <div className="back23">
