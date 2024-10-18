@@ -17,7 +17,7 @@
 
 .nameTeam {
     margin-top: 5px;
-    margin-left: 270px; /* Adjust this in the media query */
+    margin-left: 250px; /* Adjust this in the media query */
     position: absolute;
     font-size: 18px; 
 }
@@ -61,7 +61,7 @@
     }
 
     .nameTeam {
-        margin-left: 10px; /* Center it on smaller screens */
+        margin-left: 100px; /* Center it on smaller screens */
         font-size: 10px; /* Adjust font size */
     }
 
