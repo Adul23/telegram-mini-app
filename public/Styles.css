@@ -1,55 +1,72 @@
-
-.catalog{
-    position:absolute;
-    align-items: center;
-    left:20px;
-    top:5px;
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
-.palka{
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.App {
+    position: relative;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+}
+
+.catalog {
+    position: absolute;
+    display: flex; /* Use flexbox for alignment */
+    align-items: center;
+    left: 20px;
+    top: 5px;
+}
+
+.palka {
     width: 20px; 
     height: 1px;
     background-color: gray;
-    align-items: center;
     margin-bottom: 3px;
 }
 
-
 .nameTeam {
-    position: relative;
-    top: 0px; /* Aligns at the top */
-    left: 550px;
+    position: absolute; /* Changed to absolute for full positioning */
+    top: 0; /* Aligns at the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center */
     font-size: 14px; 
+    display: flex; /* Use flexbox for alignment */
     align-items: center;
 }
 
-.buttonBack{
+.buttonBack {
     position: absolute; /* Position it over .back23 */
     width: 32px; 
     height: 32px;
     background-color: #ffffff;
-    left: 250px; /* Align with .back23 */
+    left: 20px; /* Align with .back23 */
     top: 50px; /* Start from the top of .back23 */
     z-index: 2; /* Ensure it appears above .back23 */
-    border-radius: 100%; /* Keep this if desired */
+    border-radius: 100%; /* Circular button */
 }
 
 .back23 {
-    position: relative; /* Keep it relative for positioning context */
-    width: 700px; 
-    height: 400px;
-    left: 0px;
+    position: absolute; /* Change to absolute for better control */
+    width: 90%; /* Use a percentage for responsiveness */
+    height: 50%; /* Adjust height */
+    left: 5%; /* Center horizontally */
+    top: 20%; /* Adjust vertical position */
     background-color: #2F424A;
     z-index: 1; /* Ensure it's behind .back233 */
 }
 
 .back233 {
     position: absolute; /* Position it over .back23 */
-    width: 180px; 
-    height: 200px;
+    width: 80%; /* Use a percentage for responsiveness */
+    height: 40%; /* Adjust height */
     background-color: #ffffff;
-    left: 250px; /* Align with .back23 */
-    top: 100px; /* Start from the top of .back23 */
+    left: 10%; /* Center horizontally */
+    top: 30%; /* Adjust vertical position */
     z-index: 2; /* Ensure it appears above .back23 */
-    border-radius: 3%; /* Keep this if desired */
-    
+    border-radius: 3%; /* Rounded corners */
 }
