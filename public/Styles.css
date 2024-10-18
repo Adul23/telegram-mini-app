@@ -1,22 +1,25 @@
 
 .catalog{
-    position:relative;
-
+    position:absolute;
+    align-items: center;
     left:20px;
+    top:5px;
 }
 .palka{
     width: 20px; 
     height: 1px;
     background-color: gray;
-    margin-bottom: 1px;
+    align-items: center;
+    margin-bottom: 3px;
 }
 
 
 .nameTeam {
-    position: absolute;
-    top: 5px; /* Aligns at the top */
-    right: 5px;
-    font-size: 18px; 
+    position: relative;
+    top: 0px; /* Aligns at the top */
+    left: 113px;
+    font-size: 14px; 
+    align-items: center;
 }
 
 .buttonBack{
@@ -25,7 +28,7 @@
     height: 32px;
     background-color: #ffffff;
     left: 30px; /* Align with .back23 */
-    top: 129px; /* Start from the top of .back23 */
+    top: 79px; /* Start from the top of .back23 */
     z-index: 2; /* Ensure it appears above .back23 */
     border-radius: 100%; /* Keep this if desired */
 }
@@ -45,32 +48,8 @@
     height: 200px;
     background-color: #ffffff;
     left: 30px; /* Align with .back23 */
-    top: 193px; /* Start from the top of .back23 */
+    top: 120px; /* Start from the top of .back23 */
     z-index: 2; /* Ensure it appears above .back23 */
     border-radius: 3%; /* Keep this if desired */
-}
-
-@media (max-width: 500px) {
-    .nameTeam {
-        font-size: 16px;
-        right: 10px;
-    }
-
-    .back23 {
-        width: 200px; 
-        height: 400px; /* Adjusted height */
-        left: 17px;
-        background-color: #2F424A;
-        z-index: 1; /* Keep it behind */
-    }
-    
-    .back233 {
-        width: 180px; 
-        height: 200px;
-        background-color: #ffffff;
-        left: 17px; /* Align with .back23 */
-        top: 0; /* Adjust as needed */
-        z-index: 2; /* Keep it on top */
-        border-radius: 50%; /* Retained */
-    }
+    align-items: center;
 }
