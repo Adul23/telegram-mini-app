@@ -24,3 +24,12 @@
     margin-left: 17.38px;
     position:absolute;
 }
+.back23 {
+    background-image: url('back'); 
+    background-size: cover; 
+    background-position: center; 
+    width: 360px;
+    height: 834px;
+    margin-top: 81px;
+    margin-left: 0px;
+}
