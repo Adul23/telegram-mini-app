@@ -19,7 +19,7 @@
     margin-top: 5px;
     margin-left: 270px; /* Adjust this in the media query */
     position: absolute;
-    font-size: 12px; 
+    font-size: 14px; 
 }
 
 .catalog {
@@ -51,7 +51,7 @@
 }
 
 /* Mobile Styles for iPhone 13 */
-@media (max-width: 390px) {
+@media (max-width: 450px) {
     .main-logo {
         width: 80px; /* Adjust size for mobile */
         height: 80px;
