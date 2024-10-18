@@ -1,35 +1,51 @@
 .main-logo {
-    width: 100px; /* Remove the comma here */
+    width: 100px;
     height: 100px;
     background-color: yellow;
     position: absolute;
     left: 0px;
 }
+
 .container {
     margin: 33px 34px;
 }
 
-.somebackground{
-    background-image:url("/src/components/photos/backgroundimg.png");
+.somebackground {
+    background-image: url("/src/components/photos/backgroundimg.png");
     height: 100px;
 }
-.nameTeam{
-    margin-top: 0px;
-    margin-left: 128px;
-    position:absolute;
+
+.nameTeam {
+    margin-top: 5px;
+    margin-left: 270px;
+    position: absolute;
     text-align: center;
+    font-size: 12px; 
 }
-.catalog{
+
+.catalog {
     margin-top: 0px;
     margin-left: 17.38px;
-    position:absolute;
+    position: absolute;
 }
+
 .back23 {
     background-image: url('back'); 
     background-size: cover; 
     background-position: center; 
+    position: absolute; 
     width: 360px;
-    height: 834px;
-    margin-top: 81px;
-    margin-left: 0px;
+    height: 860px;
+    top: 23px;
+    left: 0px;
+}
+.back233{
+    background-image: url('back1'); 
+    background-size: cover; 
+    background-position: center; 
+    position: absolute; 
+    width: 360px;
+    height: 860px;
+    top: 45px;
+    left: 0px;
 }
