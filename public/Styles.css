@@ -16,16 +16,16 @@
 }
 
 .nameTeam {
-    margin-top: 5px;
-    margin-left: 250px; /* Adjust this in the media query */
     position: absolute;
+    top: 5px; /* Aligns at the top */
+    right: 10px; /* Positions to the right corner */
     font-size: 18px; 
 }
 
 .catalog {
-    margin-top: 0;
-    margin-left: 17.38px; /* Adjust this in the media query */
     position: absolute;
+    margin-top: 0;
+    left: 10px; /* Adjust to your preference */
 }
 
 .back23 {
@@ -33,8 +33,9 @@
     background-size: cover; 
     background-position: center; 
     position: absolute; 
-    width: 400px;
-    height: 860px;
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Adjust height to maintain aspect ratio */
+    aspect-ratio: 400 / 860; /* Maintain aspect ratio */
     top: 23px;
     left: 0;
 }
@@ -44,10 +45,11 @@
     background-size: cover; 
     background-position: center; 
     position: absolute; 
-    width: 400px;
-    height: 860px;
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Adjust height to maintain aspect ratio */
+    aspect-ratio: 400 / 860; /* Maintain aspect ratio */
     top: 45px;
-    left: 10px;
+    left: 0; /* Aligns with the left edge */
 }
 
 @media (max-width: 500px) {
@@ -61,29 +63,11 @@
     }
 
     .nameTeam {
-        margin-left: 100px; /* Center it on smaller screens */
-        font-size: 18px; /* Adjust font size */
+        font-size: 16px; /* Adjust font size for smaller screens */
+        right: 10px; /* Keep it in the right corner */
     }
 
     .catalog {
         margin-left: 10px; /* Center it on smaller screens */
-    }
-
-    .back23,
-    .back233 {
-        width: 100%; /* Full width for mobile */
-        height: auto; /* Adjust height to maintain aspect ratio */
-    }
-}
-
-/* Additional styles for iPhone 13 in landscape mode */
-@media (max-width: 600px) and (orientation: landscape) {
-    .main-logo {
-        width: 70px; /* Slightly smaller for landscape */
-        height: 70px;
-    }
-
-    .nameTeam {
-        font-size: 9px; /* Smaller font size in landscape */
     }
 }
