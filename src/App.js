@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import logo from './components/photos/logo.png'; // If not used, consider removing
 import finder from './components/photos/Layer 6.png';
 import back from './components/photos/Rectangle 7.png';
 import back1 from './components/photos/Rectangle 3886.png';

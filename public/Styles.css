@@ -5,7 +5,7 @@
 .nameTeam {
     position: absolute;
     top: 5px; /* Aligns at the top */
-    right: 10px; /* Positions to the right corner */
+    margin-right: 5px;
     font-size: 18px; 
 }
 
@@ -20,9 +20,9 @@
     background-size: cover; 
     background-position: center; 
     position: absolute; 
-    width: 100%; /* Full width for mobile */
-    height: auto; /* Adjust height to maintain aspect ratio */
-    aspect-ratio: 400 / 860; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
+    aspect-ratio: 400 / 860; 
     top: 23px;
     left: 0;
 }
@@ -44,7 +44,7 @@
 
     .nameTeam {
         font-size: 16px;
-        left: 10px; 
+        margin-right:10px;
     }
 
     .catalog {
@@ -57,7 +57,6 @@
         position: absolute; 
         width: 100%; 
         height: auto; 
-        aspect-ratio: 400 / 860; 
         top: 23px;
         left: 0;
     }
