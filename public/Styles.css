@@ -92,6 +92,6 @@
         height: auto; /* Adjust height to maintain aspect ratio */
         aspect-ratio: 400 / 860; /* Maintain aspect ratio */
         top: 45px;
-        left: 0; /* Aligns with the left edge */
+        left: 10px; /* Aligns with the left edge */
     }
 }
