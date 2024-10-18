@@ -19,7 +19,7 @@
     margin-top: 5px;
     margin-left: 270px; /* Adjust this in the media query */
     position: absolute;
-    font-size: 14px; 
+    font-size: 18px; 
 }
 
 .catalog {
@@ -33,7 +33,7 @@
     background-size: cover; 
     background-position: center; 
     position: absolute; 
-    width: 360px;
+    width: 400px;
     height: 860px;
     top: 23px;
     left: 0;
@@ -44,13 +44,12 @@
     background-size: cover; 
     background-position: center; 
     position: absolute; 
-    width: 360px;
+    width: 400px;
     height: 860px;
     top: 45px;
     left: 10px;
 }
 
-/* Mobile Styles for iPhone 13 */
 @media (max-width: 450px) {
     .main-logo {
         width: 80px; /* Adjust size for mobile */
