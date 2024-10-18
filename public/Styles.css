@@ -3,7 +3,7 @@
     height: 100px;
     background-color: yellow;
     position: absolute;
-    left: 0px;
+    left: 0;
 }
 
 .container {
@@ -17,15 +17,15 @@
 
 .nameTeam {
     margin-top: 5px;
-    margin-left: 270px;
+    margin-left: 270px; /* Adjust this in the media query */
     position: absolute;
     text-align: center;
     font-size: 12px; 
 }
 
 .catalog {
-    margin-top: 0px;
-    margin-left: 17.38px;
+    margin-top: 0;
+    margin-left: 17.38px; /* Adjust this in the media query */
     position: absolute;
 }
 
@@ -37,9 +37,10 @@
     width: 360px;
     height: 860px;
     top: 23px;
-    left: 0px;
+    left: 0;
 }
-.back233{
+
+.back233 {
     background-image: url('back1'); 
     background-size: cover; 
     background-position: center; 
@@ -47,5 +48,32 @@
     width: 360px;
     height: 860px;
     top: 45px;
-    left: 0px;
+    left: 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .main-logo {
+        width: 80px; /* Adjust size for mobile */
+        height: 80px;
+    }
+
+    .container {
+        margin: 20px 10px; /* Reduce margin for smaller screens */
+    }
+
+    .nameTeam {
+        margin-left: 10px; /* Center it on smaller screens */
+        font-size: 10px; /* Adjust font size */
+    }
+
+    .catalog {
+        margin-left: 10px; /* Center it on smaller screens */
+    }
+
+    .back23,
+    .back233 {
+        width: 100%; /* Full width for mobile */
+        height: auto; /* Adjust height to maintain aspect ratio */
+    }
 }
