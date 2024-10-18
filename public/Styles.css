@@ -50,7 +50,7 @@
     left: 10px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     .main-logo {
         width: 80px; /* Adjust size for mobile */
         height: 80px;
@@ -62,7 +62,7 @@
 
     .nameTeam {
         margin-left: 100px; /* Center it on smaller screens */
-        font-size: 10px; /* Adjust font size */
+        font-size: 18px; /* Adjust font size */
     }
 
     .catalog {
