@@ -1,5 +1,15 @@
 
+.catalog{
+    position:relative;
 
+    left:20px;
+}
+.palka{
+    width: 20px; 
+    height: 1px;
+    background-color: gray;
+    margin-bottom: 1px;
+}
 
 
 .nameTeam {
@@ -9,62 +19,58 @@
     font-size: 18px; 
 }
 
-
+.buttonBack{
+    position: absolute; /* Position it over .back23 */
+    width: 32px; 
+    height: 32px;
+    background-color: #ffffff;
+    left: 30px; /* Align with .back23 */
+    top: 129px; /* Start from the top of .back23 */
+    z-index: 2; /* Ensure it appears above .back23 */
+    border-radius: 100%; /* Keep this if desired */
+}
 
 .back23 {
-    background-image: url('back'); 
-    background-size: cover; 
-    background-position: center; 
-    position: absolute; 
-    width: 100%; 
-    height: auto; 
-    aspect-ratio: 400 / 860; 
-    top: 23px;
-    left: 0;
+    position: relative; /* Keep it relative for positioning context */
+    width: 200px; 
+    height: 400px;
+    left: 20px;
+    background-color: #2F424A;
+    z-index: 1; /* Ensure it's behind .back233 */
 }
 
 .back233 {
-    background-image: url('back1'); 
-    background-size: cover; 
-    background-position: center; 
-    position: absolute; 
-    width: 80%; 
-    height: auto; 
-    aspect-ratio: 400 / 860; 
-    top: 45px;
-    left: 10px; 
+    position: absolute; /* Position it over .back23 */
+    width: 180px; 
+    height: 200px;
+    background-color: #ffffff;
+    left: 30px; /* Align with .back23 */
+    top: 193px; /* Start from the top of .back23 */
+    z-index: 2; /* Ensure it appears above .back23 */
+    border-radius: 3%; /* Keep this if desired */
 }
 
 @media (max-width: 500px) {
-   
-
     .nameTeam {
         font-size: 16px;
-        right:10px;
+        right: 10px;
     }
 
-    
     .back23 {
-        background-image: url('back'); 
-        background-size: cover; 
-        background-position: center; 
-        position: absolute; 
-        width: 100%; 
-        height: auto; 
-        top: 23px;
-        left: 0;
+        width: 200px; 
+        height: 400px; /* Adjusted height */
+        left: 17px;
+        background-color: #2F424A;
+        z-index: 1; /* Keep it behind */
     }
     
     .back233 {
-        background-image: url('back1'); 
-        background-size: cover; 
-        background-position: center; 
-        position: absolute; 
-        width: 100%; /* Full width for mobile */
-        height: auto; /* Adjust height to maintain aspect ratio */
-        aspect-ratio: 400 / 860; /* Maintain aspect ratio */
-        top: 45px;
-        left: 10px; 
-        border-radius: 50%;
+        width: 180px; 
+        height: 200px;
+        background-color: #ffffff;
+        left: 17px; /* Align with .back23 */
+        top: 0; /* Adjust as needed */
+        z-index: 2; /* Keep it on top */
+        border-radius: 50%; /* Retained */
     }
 }
