@@ -63,7 +63,7 @@ html, body {
 .back23 {
     position: absolute; /* Change to absolute for better control */
     width: 90%; /* Use a percentage for responsiveness */
-    height: 120%; /* Adjust height */
+    height: 150%; /* Adjust height */
 
     left: 5%; /* Center horizontally */
     top: 20%; /* Adjust vertical position */
@@ -74,7 +74,7 @@ html, body {
 .back233 {
     position: absolute; /* Position it over .back23 */
     width:70%; /* Use a percentage for responsiveness */
-    height: 110%; /* Adjust height */
+    height: 140%; /* Adjust height */
     background-color: #ffffff;
     left: 15%; /* Center horizontally */
     top: 30%; /* Adjust vertical position */
@@ -108,13 +108,37 @@ html, body {
 
 .somecontainer{
     position:absolute;
+    width:90%;
     left:10%;
     top:0%;
     display: flex;
     flex-direction: column; 
 }
+.Name{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 80%;
+}
 
-
+.Surname{
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    width: 80%;
+}
+.Email{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    width: 80%;
+}
+.Password{
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    width: 80%;
+}
 @media (max-width:320px) {
     
     .catalog {
@@ -164,7 +188,7 @@ html, body {
     .back233 {
         position: absolute; /* Position it over .back23 */
         width:70%; /* Use a percentage for responsiveness */
-        height: 50%; /* Adjust height */
+        height: 100%; /* Adjust height */
         background-color: #ffffff;
         left: 10%; /* Center horizontally */
         top: 30%; /* Adjust vertical position */
