@@ -92,13 +92,45 @@ function App() {
                 </div>
             </div>
             <div className="back23">
-                
+            
             </div>
             <div className="back233">
-                <div className="pole">
+            
+              <div className="someText">
+                    <h3>Registration</h3>
                     
-                </div>
+                  </div>
+              
+              
+              <div className ='somecontainer'>
+                <div className = "textName">
+                    Name
+                    
+                  </div>
+                <div className = 'pole'>
+              
+                  </div>
+                  <div className = "textName">
+                    Surname
+                  </div>
+                  <div className = 'pole'>
+                
+                  </div>
+                  <div className = "textName">
+                    Email
+                  </div>
+                  <div className = 'pole'/>
+                  <div className = "textName">
+                    Password
+                  </div>
+                  <div className = 'pole'/>
+              </div>
+              
             </div>
+            <div className="buttonSubmit">
+                
+              </div>
+            
         </div>
     );
 }

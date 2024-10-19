@@ -16,64 +16,6 @@ html, body {
 
 .catalog {
     position: absolute;
-    display: flex; /* Use flexbox for alignment */
-    align-items: center;
-    left: 20px;
-    top: 5px;
-}
-
-.palka {
-    width: 20px; 
-    height: 1px;
-    background-color: gray;
-    margin-bottom: 3px;
-}
-
-.nameTeam {
-    position: absolute; /* Changed to absolute for full positioning */
-    top: 0; /* Aligns at the top */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust to center */
-    font-size: 14px; 
-    display: flex; /* Use flexbox for alignment */
-    align-items: center;
-}
-
-.buttonBack {
-    position: absolute; /* Position it over .back23 */
-    width: 32px; 
-    height: 32px;
-    background-color: #ffffff;
-    left: 20px; /* Align with .back23 */
-    top: 50px; /* Start from the top of .back23 */
-    z-index: 2; /* Ensure it appears above .back23 */
-    border-radius: 100%; /* Circular button */
-}
-
-.back23 {
-    position: absolute; /* Change to absolute for better control */
-    width: 90%; /* Use a percentage for responsiveness */
-    height: 50%; /* Adjust height */
-    left: 5%; /* Center horizontally */
-    top: 20%; /* Adjust vertical position */
-    background-color: #2F424A;
-    z-index: 1; /* Ensure it's behind .back233 */
-}
-
-.back233 {
-    position: absolute; /* Position it over .back23 */
-    width: 80%; /* Use a percentage for responsiveness */
-    height: 40%; /* Adjust height */
-    background-color: #ffffff;
-    left: 10%; /* Center horizontally */
-    top: 30%; /* Adjust vertical position */
-    z-index: 2; /* Ensure it appears above .back23 */
-    border-radius: 3%; /* Rounded corners */
-}
-@media (min-width:320px) {
-    
-.catalog {
-    position: absolute;
     align-items: center;
     left: 20px;
     top: 5px;
@@ -92,7 +34,7 @@ html, body {
     left: 75%; /* Center horizontally */
     font-size: 14px; 
     display: flex; /* Use flexbox for alignment */
-    align-items: center;
+    
 }
 
 .buttonBack {
@@ -100,16 +42,29 @@ html, body {
     width: 32px; 
     height: 32px;
     background-color: #ffffff;
-    left: 20px; /* Align with .back23 */
-    top: 50px; /* Start from the top of .back23 */
+    left: 10%; /* Align with .back23 */
+    top: 21%; /* Start from the top of .back23 */
     z-index: 2; /* Ensure it appears above .back23 */
     border-radius: 100%; /* Circular button */
+
+}
+.buttonSubmit {
+    position: absolute; /* Position it over .back23 */
+    width: 32px; 
+    height: 32px;
+    background-color: #ffffff;
+    right: 1%; /* Align with .back23 */
+    bottom: 1%; /* Start from the top of .back23 */
+    z-index: 2; /* Ensure it appears above .back23 */
+    border-radius: 100%; /* Circular button */
+
 }
 
 .back23 {
     position: absolute; /* Change to absolute for better control */
     width: 90%; /* Use a percentage for responsiveness */
-    height: 100%; /* Adjust height */
+    height: 120%; /* Adjust height */
+
     left: 5%; /* Center horizontally */
     top: 20%; /* Adjust vertical position */
     background-color: #2F424A;
@@ -119,11 +74,116 @@ html, body {
 .back233 {
     position: absolute; /* Position it over .back23 */
     width:70%; /* Use a percentage for responsiveness */
-    height: 50%; /* Adjust height */
+    height: 110%; /* Adjust height */
     background-color: #ffffff;
-    left: 10%; /* Center horizontally */
+    left: 15%; /* Center horizontally */
     top: 30%; /* Adjust vertical position */
     z-index: 2; /* Ensure it appears above .back23 */
     border-radius: 3%; /* Rounded corners */
 }
+.someText{
+    position:absolute;
+    text-align: center;
+    left: 40%;
+    top: 5%;
+
+}
+.pole{
+    position:relative;
+    left:10%;
+    width:400px;
+    top:35%;
+    height:1px;
+    margin-top: 7%;
+    background-color: gray;
+
+}
+.textName{
+    position:relative;
+    left:10%;
+    font-size: small;
+    margin-top:15%; 
+    
+}
+
+.somecontainer{
+    position:absolute;
+    left:10%;
+    top:0%;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+@media (max-width:320px) {
+    
+    .catalog {
+        position: absolute;
+        align-items: center;
+        left: 20px;
+        top: 5px;
+    }
+
+    .palka {
+        width: 20px; 
+        height: 1px;
+        background-color: gray;
+        margin-bottom: 3px;
+    }
+
+    .nameTeam {
+        position: absolute; /* Changed to absolute for full positioning */
+        top: 0; /* Aligns at the top */
+        left: 65%; /* Center horizontally */
+        font-size: 14px; 
+        display: flex; /* Use flexbox for alignment */
+        
+    }
+
+    .buttonBack {
+        position: absolute; /* Position it over .back23 */
+        width: 32px; 
+        height: 32px;
+        background-color: #ffffff;
+        left: 10%; /* Align with .back23 */
+        top: 21%; /* Start from the top of .back23 */
+        z-index: 2; /* Ensure it appears above .back23 */
+        border-radius: 100%; /* Circular button */
+    }
+
+    .back23 {
+        position: absolute; /* Change to absolute for better control */
+        width: 90%; /* Use a percentage for responsiveness */
+        height: 100%; /* Adjust height */
+        left: 5%; /* Center horizontally */
+        top: 20%; /* Adjust vertical position */
+        background-color: #2F424A;
+        z-index: 1; /* Ensure it's behind .back233 */
+    }
+
+    .back233 {
+        position: absolute; /* Position it over .back23 */
+        width:70%; /* Use a percentage for responsiveness */
+        height: 50%; /* Adjust height */
+        background-color: #ffffff;
+        left: 10%; /* Center horizontally */
+        top: 30%; /* Adjust vertical position */
+        z-index: 2; /* Ensure it appears above .back23 */
+        border-radius: 3%; /* Rounded corners */
+    }
+    .someText{
+        position:absolute;
+        text-align: center;
+        left: 40%;
+        top: 5%;
+
+    }
+    .pole{
+        position:absolute;
+        left: 10%;
+        width:100%;
+        top:100%;
+        height:1px;
+        background-color: gray;
+    }
 }
