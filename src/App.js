@@ -121,22 +121,35 @@ function App() {
                       required
                   />
                   <div className = 'pole'>
-                
+
                   </div>
                   <div className = "textName">
                     Email
+                    
                   </div>
+                  <input className="Email1"
+                      type="email"
+                      id="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                  />
                   <div className = 'pole'/>
                   <div className = "textName">
                     Password
                   </div>
+                  <input className='Password1'
+                      type="password"
+                      id="password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      required
+                  />
                   <div className = 'pole'/>
               </div>
               
             </div>
-            <div className="buttonSubmit">
-                
-              </div>
+            <button type="submit" className='buttonSubmit'>Sign up</button>
             
         </div>
     );

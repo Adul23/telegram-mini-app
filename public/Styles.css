@@ -53,11 +53,11 @@ html, body {
     width: 32px; 
     height: 32px;
     background-color: #ffffff;
-    right: 1%; /* Align with .back23 */
-    bottom: 1%; /* Start from the top of .back23 */
+    right: 5%; /* Align with .back23 */
+    bottom: -55%; /* Start from the top of .back23 */
     z-index: 2; /* Ensure it appears above .back23 */
     border-radius: 100%; /* Circular button */
-
+    
 }
 
 .back23 {
@@ -127,16 +127,16 @@ html, body {
     top: 45%;
     width: 80%;
 }
-.Email{
+.Email1{
     position: absolute;
     left: 10%;
-    top: 60%;
+    top: 70%;
     width: 80%;
 }
-.Password{
+.Password1{
     position: absolute;
     left: 10%;
-    top: 80%;
+    top: 95%;
     width: 80%;
 }
 @media (max-width:320px) {
