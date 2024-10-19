@@ -138,7 +138,8 @@ html, body {
     left: 10%;
     top: 95%;
     width: 80%;
-}@media (max-width: 320px) {
+}
+@media (max-width: 320px) {
     .catalog {
         left: 10px; /* Adjust positioning */
         top: 5px;
@@ -196,6 +197,7 @@ html, body {
     }
 
     .someText {
-        left: 35%; /* Center text */
+        left: 20%; /* Center text */
+        top:-20%;
     }
 }
