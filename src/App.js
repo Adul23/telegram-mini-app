@@ -76,12 +76,9 @@ function App() {
                     <h12>Reactive JStars</h12>
                 </div>
             </div>
-            <div className="buttonBack">
-                <div>
-                        
-                   
-                </div>
-            </div>
+            <button type="back" className='buttonBack'>--</button>
+
+            
             <div className="back23">
             
             </div>
